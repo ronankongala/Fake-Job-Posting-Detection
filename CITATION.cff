@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Kongala"
+    given-names: "Ronan"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "Fake Job Posting Detection"
+version: 1.0.0
+date-released: 2025-05-23
+url: "https://github.com/ronanlucky/Fake-Job-Posting-Detection"

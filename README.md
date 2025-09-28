@@ -1,22 +1,96 @@
-# Fake-job-posting-detection
-Detection fake job postings using Machine learning and Natural Language processing. To increase the efficency of the model boosting algorithms are used. Publicly available dataset which is EMSCAD is used as source. To balance the dissimilarities in the data sampling techniques which include SMOTE and ADASYN are performed.
+# Fake Job Posting Detection
 
-** Abstract**
-While many organizations these days prefer to post their job opportunities
-on the web so that job seekers can access them conveniently and easily, this
-practice might be an example of scam from the side of swindlers who offer job
-hunters tasks and services in exchange for money. Many people fall victims to
-this type of fraud and lose a considerable amount of money as a result. The
-proposed approach uses a variety of machine learning algorithms inclusive of
-supervised learning tools and natural language processing methods to analyze
-and sort job advertisements. By using both single classifiers and ensemble
-classifiers, the system assess results and compare them, thus recognizing
-fraudulent job advertisements on the Internet. Model performance will be
-evaluated using metrics like accuracy, precision, recall, and F1-score. This
-study aims to demonstrate the potential of boosting techniques for achieving
-high accuracy in fake job posts prediction, potentially leading to improved
-outcomes
-Therefore, the value of the research in helping to create a more secure
-online job market can serves to establish a level of trust for job seekers and
-provides them with protection from the financial and emotional risks related
-to the misuse of deceptive job postings
+## 📄 IEEE Publication
+**Published at IEEE ICAISS 2025** - 3rd International Conference on Augmented Intelligence and Sustainable Systems
+- 📖 [Read the Full Paper](IEEE%20paper%20pdf.pdf)
+- 🏆 [Conference Certificate](IEEE%20certificate.pdf)
+- 📍 Presented at CARE College of Engineering, Trichy, India (May 21-23, 2025)
+
+## 🎯 Project Overview
+Detection of fraudulent job postings using Machine Learning and Natural Language Processing. This research addresses the critical challenge of identifying fake job advertisements in online recruitment platforms, achieving **85% accuracy** through ensemble methods and advanced data balancing techniques.
+
+## 📊 Key Results
+
+### Model Performance Comparison
+| Algorithm | Accuracy | Recall (Fake) | F1-Score (Fake) |
+|-----------|----------|---------------|-----------------|
+| Random Forest + SMOTE | 98% | 68% | 0.80 |
+| Gradient Boosting | 97% | 97% | 0.73 |
+| XGBoost | 97% | 77% | 0.70 |
+| AdaBoost | 96% | 80% | 0.68 |
+
+### Key Achievements
+- ✅ Successfully handled class imbalance using SMOTE and ADASYN
+- ✅ Compared 4 ensemble learning algorithms
+- ✅ Processed 9,000+ job postings
+- ✅ Published peer-reviewed research paper
+
+## 🛠️ Technologies & Methods
+
+### Machine Learning Algorithms
+- Random Forest
+- AdaBoost
+- Gradient Boosting
+- XGBoost
+
+### Data Balancing Techniques
+- SMOTE (Synthetic Minority Over-sampling Technique)
+- ADASYN (Adaptive Synthetic Sampling)
+
+### Natural Language Processing
+- TF-IDF (Term Frequency-Inverse Document Frequency)
+- Text preprocessing and feature extraction
+
+### Tools & Libraries
+- Python 3.x
+- Scikit-learn
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- Imbalanced-learn
+
+## 📁 Repository Structure
+├── IEEE paper pdf.pdf          # Published research paper
+├── IEEE certificate.pdf        # Conference presentation certificate
+├── fake_job_postings.csv.zip  # Dataset (EMSCAD)
+├── presntation.ipynb          # Implementation notebook
+├── outputs compared.docx      # Performance comparison document
+└── README.md                  # Project documentation
+
+## 🚀 Getting Started
+
+## Prerequisites
+``bash
+pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn
+Running the Project
+
+Clone the repository
+
+bashgit clone https://github.com/ronanlucky/Fake-Job-Posting-Detection.git
+
+Extract the dataset
+
+bashunzip fake_job_postings.csv.zip
+
+Run the Jupyter notebook
+
+bashjupyter notebook presntation.ipynb
+📈 Methodology
+
+Data Preprocessing: Cleaned and prepared EMSCAD dataset with 9,000+ job postings
+Feature Engineering: Applied TF-IDF for text feature extraction from job descriptions
+Class Balancing: Implemented SMOTE and ADASYN to address dataset imbalance
+Model Training: Trained and optimized multiple ensemble classifiers
+Evaluation: Assessed using accuracy, precision, recall, and F1-score metrics
+
+
+🔮 Future Enhancements
+
+Real-time API for job posting verification
+Integration with LinkedIn, Indeed, and other platforms
+Deep learning implementation using BERT
+Browser extension for automatic fake job detection
+
+📫 Contact
+For questions or collaboration: kongalaronan@gmail.com
+
+Supported by Vardhaman College of Engineering & Northeastern University

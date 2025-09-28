@@ -59,7 +59,7 @@ Detection of fraudulent job postings using Machine Learning and Natural Language
 ## 🚀 Getting Started
 
 ## Prerequisites
-``bash
+```bash
 pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn
 Running the Project
 

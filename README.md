@@ -65,7 +65,7 @@ Running the Project
 
 Clone the repository
 
-bashgit clone https://github.com/ronanlucky/Fake-Job-Posting-Detection.git
+bashgit clone https://github.com/ronankongala/Fake-Job-Posting-Detection.git
 
 Extract the dataset
 
